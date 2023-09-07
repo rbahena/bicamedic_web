@@ -14,12 +14,6 @@
 }
 
 
-
-
-
-
-
-
 body {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -240,11 +234,11 @@ h3 {
 .bradcam_overlay::before {
   position: absolute;
   content: "";
-  background: -moz-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: -moz-linear-gradient(left, #0d328f 0%, #103ca8 24%, rgba(48, 115, 167, 0) 96%, rgba(125, 185, 232, 0) 100%);
   
-  background: -webkit-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: -webkit-linear-gradient(left, #0d328f 0%, #103ca8 24%, rgba(48, 109, 155, 0) 96%, rgba(125, 185, 232, 0) 100%);
   
-  background: linear-gradient(to right, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: linear-gradient(to right, #0d328f 0%, #103ca8 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
   
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', endColorstr='#007db9e8',GradientType=1 );
   
@@ -2418,7 +2412,8 @@ h3 {
 
 
 .breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/pexels-anna-shvets-3845129.jpg);
+  
 }
 
 
@@ -2433,9 +2428,9 @@ h3 {
 
 
 .bradcam_area {
-  padding: 170px;
+  /* padding: 170px; */
   background-size: cover;
-  background-position: center center;
+  background-position: left 65%;
   padding: 148px 0px;
   background-repeat: no-repeat;
 }
@@ -5145,8 +5140,8 @@ h6 {
   bottom: -10px;
   left: 10px;
   display: block;
-  color: #fff;
-  background-color: #009DFF;
+  color: #5f5959;
+  background-color: #0d328f;
   padding: 8px 15px;
   border-radius: 5px;
 }
