@@ -1272,8 +1272,8 @@ h3 {
 
 
 .welcome_docmed_area {
-  padding-top: 120px;
-  padding-bottom: 220px;
+  padding-top: 150px;
+  padding-bottom: 120px;
 }
 
 @media (max-width: 767px) {
@@ -2412,25 +2412,13 @@ h3 {
 
 
 .breadcam_bg {
-  background-image: url(../img/banner/pexels-anna-shvets-3845129.jpg);
+  background-image: url(../img/about/camilla.jpeg);
   
 }
 
-
-.breadcam_bg_1 {
-  background-image: url(../img/banner/bradcam2.png);
-}
-
-
-.breadcam_bg_2 {
-  background-image: url(../img/banner/bradcam3.png);
-}
-
-
 .bradcam_area {
-  /* padding: 170px; */
   background-size: cover;
-  background-position: left 65%;
+  background-position: left 30%;
   padding: 148px 0px;
   background-repeat: no-repeat;
 }
