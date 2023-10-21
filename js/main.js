@@ -32,6 +32,8 @@ if(menu.length){
 // review-active
 $('.slider_active').owlCarousel({
   loop:true,
+  pagination: true,
+  autoplayTimeout:3000,
   margin:0,
 items:1,
 autoplay:true,
