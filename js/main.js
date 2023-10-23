@@ -33,15 +33,15 @@ if(menu.length){
 $('.slider_active').owlCarousel({
   loop:true,
   pagination: true,
-  autoplayTimeout:3000,
+  autoplayTimeout:4000,
   margin:0,
 items:1,
 autoplay:true,
 navText:['<i class="fa-solid fa-angles-left">','</i><i class="fa-solid fa-angles-right"></i>'],
   nav:true,
-dots:false,
-autoplayHoverPause: true,
-autoplaySpeed: 800,
+dots:true,
+autoplayHoverPause: false,
+autoplaySpeed: 1900,
   responsive:{
       0:{
           items:1,

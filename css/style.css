@@ -234,14 +234,13 @@ h3 {
 .bradcam_overlay::before {
   position: absolute;
   content: "";
-  background: -moz-linear-gradient(left, #0d328f 0%, #103ca8 24%, rgba(48, 115, 167, 0) 96%, rgba(125, 185, 232, 0) 100%);
-  
-  background: -webkit-linear-gradient(left, #0d328f 0%, #103ca8 24%, rgba(48, 109, 155, 0) 96%, rgba(125, 185, 232, 0) 100%);
-  
-  background: linear-gradient(to right, #0d328f 0%, #103ca8 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
-  
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', endColorstr='#007db9e8',GradientType=1 );
-  
+  background: rgb(0,14,36);
+  background: linear-gradient(90deg, rgba(0,14,36,0.7512254901960784) 0%, rgba(9,9,121,1) 0%, rgba(9,22,130,1) 22%, rgba(8,34,138,1) 30%, rgba(7,50,148,1) 45%, rgba(0,212,255,1) 100%);
+
+  /* background: -moz-linear-gradient(left, #0d328f 0%, #103ca8 24%, rgba(48, 115, 167, 0) 96%, rgba(125, 185, 232, 0) 100%); */
+  /* background: -webkit-linear-gradient(left, #0d328f 0%, #103ca8 24%, rgba(48, 109, 155, 0) 96%, rgba(125, 185, 232, 0) 100%);   */
+  /* background: linear-gradient(to right, #0d328f 0%, #103ca8 24%, rgba(3, 82, 142, 0) 96%, rgba(125, 185, 232, 0) 100%); */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', endColorstr='#007db9e8',GradientType=1 );  
   top: 0;
   left: 0;
   width: 100%;
@@ -251,7 +250,7 @@ h3 {
 }
 
 .section-padding {
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 120px;
 }
 
@@ -1186,64 +1185,80 @@ h3 {
 
 
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/banner2.png);
+  /* background-image: url(../img/banner/expo.jpg); */
 }
 
 
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-color: #d1d1d1;
+}
+
+.slider_bg_3 {
+  
+}
+
+.slider_bg_4 {
+  background-color: #d1d1d1;
 }
 
 
 .slider_area .single_slider {
-  height: 700px;
+  height: 550px;
+  /* padding-left: 100px; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-}
-
-@media (max-width: 767px) {
-  
-  .slider_area .single_slider {
-    height: 420px;
-  }
-}
-
+} 
 
 .slider_area .single_slider .slider_text h3 {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 45px;
-  
   letter-spacing: 2px;
   font-weight: 500;
 }
 
 
 .slider_area .single_slider .slider_text h3 span {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @media (max-width: 767px) {
-  
+  .slider_area .single_slider {
+    height: 420px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider_area .single_slider .slider_text h3 {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 767px) {
   .slider_area .single_slider .slider_text h3 {
     font-size: 27px;
     letter-spacing: 3px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  
-  .slider_area .single_slider .slider_text h3 {
-    font-size: 33px;
+@media (min-width: 992px) and (max-width: 1200px) {
+  .slider_area .single_slider .slider_text p {
+    font-size: 23px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  
-  .slider_area .single_slider .slider_text h3 {
-    font-size: 35px;
-    letter-spacing: 3px;
+@media (max-width: 767px) {
+  .slider_area .single_slider .slider_text p {
+    font-size: 16px;
   }
 }
 
@@ -1256,42 +1271,24 @@ h3 {
   margin-top: 10px;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  
-  .slider_area .single_slider .slider_text p {
-    font-size: 23px;
-  }
-}
-
-@media (max-width: 767px) {
-  
-  .slider_area .single_slider .slider_text p {
-    font-size: 16px;
-  }
-}
-
-
 .welcome_docmed_area {
   padding-top: 150px;
   padding-bottom: 120px;
 }
 
 @media (max-width: 767px) {
-  
   .welcome_docmed_area {
     padding-bottom: 100px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  
   .welcome_docmed_area {
     padding-bottom: 100px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  
   .welcome_docmed_area {
     padding-bottom: 100px;
   }
@@ -2412,14 +2409,14 @@ h3 {
 
 
 .breadcam_bg {
-  background-image: url(../img/about/camilla.jpeg);
+  /* background-image: url(../img/about/camilla.jpeg); */
   
 }
 
 .bradcam_area {
   background-size: cover;
   background-position: left 30%;
-  padding: 148px 0px;
+  padding: 60px 0px;
   background-repeat: no-repeat;
 }
 
